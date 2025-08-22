@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
          // Recipient (always your email)
         $mail->setFrom('shashisalwathura@gmail.com', '4USDESIGNS - Review Form');
-        $mail->addAddress('shashi.salwathura78@gmail.com'); // All forms go here
+        $mail->addAddress('info@4usdesigns.com'); // All forms go here
 
          // Format email to match the style from the screenshot
         $emailBody = "
