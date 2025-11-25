@@ -96,14 +96,14 @@
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Add this below your existing contact form or wherever you want the rating form to appear -->
+    <!-- Add this below your existing review form or wherever you want the rating form to appear -->
     <section id="review" class="review section">
       <div class="container" data-aos="fade-up" data-aos-delay="200">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-8">
             <h2 class="mb-4 text-center">Leave a Review</h2>
 
-            <form action="review.php" method="post" class="php-email-form">
+            <form id="reviewForm" action="https://formspree.io/f/xrbaonnr" method="post" class="php-email-form">
               <div class="mb-3">
                 <label for="rating" class="form-label">Your Overall Rating</label>
                 <select class="form-select" id="rating" name="rating" required>
@@ -144,6 +144,8 @@
               </div>
 
             </form>
+                                <script src="js/review.js"></script>
+
           </div>
         </div>
       </div>

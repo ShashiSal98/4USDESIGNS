@@ -1481,3 +1481,13 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+.loading,
+.error-message,
+.sent-message {
+  display: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-message { color: red; }
+.sent-message { color: green; }
